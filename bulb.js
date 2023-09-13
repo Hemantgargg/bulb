@@ -13,6 +13,7 @@ function toggleBulb() {
 
     if (state) {
         sw.style.background = "yellow"
+        bg.style.background = "white"
     }
     else {
         sw.style.background = "white"
